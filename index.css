@@ -415,7 +415,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
     position: absolute;
-    top: 75%;
+    top: 100%;
     transform: translateY(-50%);
 }
 
@@ -468,7 +468,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .work__text {
-    flex: 0 0 75%;
+    flex: 0 0 85%;
 }
 
 .work__list {
