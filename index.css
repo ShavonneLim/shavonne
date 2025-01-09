@@ -443,6 +443,7 @@ body:not(.user-is-tabbing) a:focus {
 .work__box {
     display: flex;
     align-items: center;
+    background-color: aliceblue;
 }
 
 @media(max-width: 900px) {
