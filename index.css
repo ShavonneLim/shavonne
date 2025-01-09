@@ -550,6 +550,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .about__photo-container {
+    flex: 0 0 33%;
+    max-width: 33%;
     margin-bottom: var(--gutter-normal);
 }
 
