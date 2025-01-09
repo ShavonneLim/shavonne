@@ -553,6 +553,7 @@ body:not(.user-is-tabbing) a:focus {
     flex: 0 0 33%;
     max-width: 33%;
     margin-bottom: var(--gutter-normal);
+    margin-left: 0;
 }
 
 @media(min-width: 901px) {
