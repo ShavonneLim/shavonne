@@ -35,6 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
+    --lightblue: aliceblue;
     --blue: #002c65;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
@@ -72,7 +73,7 @@ body {
     font-weight: 400;
     color: var(--white-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: var(--lightblue);
     overflow-x: hidden;
 }
 
@@ -443,7 +444,6 @@ body:not(.user-is-tabbing) a:focus {
 .work__box {
     display: flex;
     align-items: center;
-    background-color: aliceblue;
 }
 
 @media(max-width: 900px) {
