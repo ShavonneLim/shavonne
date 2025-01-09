@@ -35,7 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --lightblue: rgb(208, 230, 250);
+    --lightblue: rgb(84, 134, 180);
     --blue: #002c65;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
@@ -406,7 +406,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/lightbluebg.png');
+        url('./images/bluebg.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
