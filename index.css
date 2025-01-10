@@ -538,13 +538,13 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
 }
 
 @media(max-width: 900px) {
     .about__content {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: initial;
     }
 }
@@ -558,12 +558,14 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 35%;
+        max-width: 100%;
     }
     
     .about__photo-container {
-        flex: 1;
-        margin: 0 var(--gutter-normal) 0 0;
+        flex: 0 0 auto;
+        max-width:100%;
+        margin-right:0;
+        margin: var(--gutter-normal);
     }
 }
 
